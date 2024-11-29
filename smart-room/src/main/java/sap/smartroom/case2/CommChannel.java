@@ -11,7 +11,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 
 import io.vertx.core.json.JsonObject;
-import sap.smartroom.AbstractEventSource;
+import sap.smartroom.env_model.AbstractEventSource;
 
 public class CommChannel extends AbstractEventSource {
 

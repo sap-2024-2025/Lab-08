@@ -1,10 +1,6 @@
 package sap.smartroom.case2;
 
-import io.vertx.core.json.JsonObject;
-import sap.smartroom.Event;
-import sap.smartroom.LightSensorDevice;
-import sap.smartroom.common.BasicEventLoopAgent;
-import sap.smartroom.environment.distributed.*;
+import sap.smartroom.env_impl.distributed.*;
 
 public class LightSensingAgentLauncher {
 	

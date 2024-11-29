@@ -1,10 +1,10 @@
 package sap.smartroom.case2;
 
 import io.vertx.core.json.JsonObject;
-import sap.smartroom.Event;
-import sap.smartroom.PresenceDetectionDevice;
-import sap.smartroom.common.BasicEventLoopAgent;
-import sap.smartroom.environment.distributed.*;
+import sap.smartroom.agents.common.BasicEventLoopAgent;
+import sap.smartroom.env_impl.distributed.*;
+import sap.smartroom.env_model.Event;
+import sap.smartroom.env_model.PresenceDetectionDevice;
 
 public class PresenceDetectionAgent extends BasicEventLoopAgent {
 

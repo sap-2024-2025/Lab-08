@@ -1,7 +1,7 @@
 package sap.smartroom.case2;
 
 import io.vertx.core.json.JsonObject;
-import sap.smartroom.Event;
+import sap.smartroom.env_model.Event;
 
 public class MsgEvent extends Event {
 	private JsonObject msg;

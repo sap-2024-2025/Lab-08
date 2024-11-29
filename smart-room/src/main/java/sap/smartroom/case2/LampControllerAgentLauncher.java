@@ -1,6 +1,6 @@
 package sap.smartroom.case2;
 
-import sap.smartroom.environment.distributed.*;
+import sap.smartroom.env_impl.distributed.*;
 
 public class LampControllerAgentLauncher {
 	

@@ -1,12 +1,11 @@
 package sap.smartroom.case2;
 
 import io.vertx.core.json.JsonObject;
-import sap.smartroom.Event;
-import sap.smartroom.LampDevice;
-import sap.smartroom.common.BasicEventLoopAgent;
-import sap.smartroom.common.Timer;
-import sap.smartroom.common.TimerEvent;
-import sap.smartroom.environment.distributed.*;
+import sap.smartroom.agents.common.BasicEventLoopAgent;
+import sap.smartroom.agents.common.Timer;
+import sap.smartroom.agents.common.TimerEvent;
+import sap.smartroom.env_model.Event;
+import sap.smartroom.env_model.LampDevice;
 
 public class LampControllerAgent extends BasicEventLoopAgent {
 	
